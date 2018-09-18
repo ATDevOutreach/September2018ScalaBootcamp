@@ -9,6 +9,7 @@ This bootcamp will use tools from the following sites:
 
 #### Getting Started: Hello World App
 1. You can set up your environment:
+
 - [Windows](https://intellipaat.com/tutorial/scala-tutorial/scala-installation/)
 - [Linux](https://www.scala-lang.org/download/)
 
