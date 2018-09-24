@@ -1,26 +1,31 @@
 # Scala BootCamp September- December 2018
-## Class One
-#### A beginners guide to Scala syntax
-This bootcamp will use tools from the following sites:
-- [SBT build tool](https://www.scala-sbt.org/1.x/docs/index.html)
-- [SBT Shell](https://www.scala-sbt.org/1.x/docs/sbt-by-example.html)
-- [Scala book by Matt Odersky](http://ccfit.nsu.ru/~den/Scala/programming_in_scala_2nd.pdf)
-- [Exercism exercises](https://exercism.io/tracks/scala)
+## Class Two
+#### Sum of Multiples
+Given a number, find the sum of all the unique multiples of particular numbers up to
+but not including that number.
 
-#### Getting Started: Hello World App
-1. You can set up your environment:
+If we list all the natural numbers below 20 that are multiples of 3 or 5,
+we get 3, 5, 6, 9, 10, 12, 15, and 18.
 
-- [Windows](https://intellipaat.com/tutorial/scala-tutorial/scala-installation/)
-- [Linux](https://www.scala-lang.org/download/)
+The sum of these multiples is 78.
 
-2. Fork the lesson repository provided:
+1. Change Directory into the project directory
+2. Ensure the code is upto date; pull new all changes from master
+````
+git pull origin master
+````
+3. Change to class_two branch
+````
+git checkout class_one
+````
+4. Make changes to the branch by making the tests on SumOfMultiplesTest.scala pass
 
-3. Make changes to the fork by making the tests on HelloWorldTest.scala pass
+5. Commit the changes to your fork.
 
-4. Commit the changes to your fork.
-
-5. Make a pull request to the lesson Repo.
-
+6. Make a pull request to the lesson Repo.
 
 #### Objective of the lesson
-- Understand the Scala structure and Test Driven Development
+- Scala collections and Test Driven Development
+
+##### Source
+A variation on Problem 1 at Project Euler [http://projecteuler.net/problem=1](http://projecteuler.net/problem=1)
