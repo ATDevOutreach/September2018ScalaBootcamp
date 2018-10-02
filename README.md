@@ -1,22 +1,24 @@
 # Scala BootCamp September- December 2018
-## Class Two
-#### Sum of Multiples
-- Given a number, find the sum of all the unique multiples of particular numbers up to but not including that number.
+## Class Three
+#### Difference Of Squares
+- Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
 
-- If we list all the natural numbers below 20 that are multiples of 3 or 5, we get 3, 5, 6, 9, 10, 12, 15, and 18.
+- The square of the sum of the first ten natural numbers is (1 + 2 + ... + 10)² = 55² = 3025.
 
-- The sum of these multiples is 78.
+- The sum of the squares of the first ten natural numbers is 1² + 2² + ... + 10² = 385.
+
+- Hence the difference between the square of the sum of the first ten natural numbers and the sum of the squares of the first ten natural numbers is 3025 - 385 = 2640.
 
 1. Change Directory into the project directory
 2. Ensure the code is up to date; pull new all changes from master
 ````
 git pull origin master
 ````
-3. Change to class_two branch
+3. Change to class_three branch
 ````
-git checkout class_two
+git checkout class_three
 ````
-4. Make changes to the branch by making the tests on SumOfMultiplesTest.scala pass
+4. Make changes to the branch by making the tests on DifferenceOfSquaresTest.scala pass
 
 5. Commit the changes to your fork.
 
@@ -26,4 +28,4 @@ git checkout class_two
 - Scala collections and Test Driven Development
 
 ##### Source
-A variation on Problem 1 at Project Euler [http://projecteuler.net/problem=1](http://projecteuler.net/problem=1)
+Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
