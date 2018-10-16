@@ -1,8 +1,30 @@
 object DifferenceOfSquares{
 
-  def sumOfSquares(n: Int): Int = ???
+  def sumOfSquares(n: Int): Int = {
+    //The Numbers
+    val naturals = ( 1 to n).toSet
 
-  def squareOfSum(n: Int): Int = ???
+    //Square each
+    val squares = for {
+      j <- naturals
+    } yield {j*j}
 
-  def differenceOfSquares(n: Int):Int = ???
+    //Sum
+    squares.sum
+  }
+
+  def squareOfSum(n: Int): Int = {
+    //Numbers
+    val naturals=(1 to n).toSet
+
+    //Sum
+    val summed = naturals.sum
+
+    //Square
+    summed * summed
+  }
+
+  def differenceOfSquares(n: Int):Int = {
+    squareOfSum(n)-sumOfSquares(n)
+  }
 }
